@@ -95,9 +95,9 @@ void MainWindow::onMainButtonClicked() {
 
 void MainWindow::onPlayerStateChanged(QMediaPlayer::State state) {
     if (state == QMediaPlayer::PlayingState) {
-        ui_->mainButton->setText("⏸");
+        ui_->mainButton->setText("||");
     } else {
-        ui_->mainButton->setText("⏯");
+        ui_->mainButton->setText("▶");
     }
 }
 
@@ -137,12 +137,12 @@ void MainWindow::setMute() {
 void MainWindow::setVolBtnIcon(int vol) {
     if (!vol) {
         ui_->volButton->setText("🔇");
-    }
-    else if (vol <= 30) {
-        ui_->volButton->setText("🔈");
-    }
-    else {
-        ui_->volButton->setText("🔉");
+    } else if (vol <= 33) {
+        ui_->volButton->setText("♪");
+    } else if (vol <= 67){
+        ui_->volButton->setText("♪♪");
+    } else {
+        ui_->volButton->setText("♪♪♪");
     }
 }
 

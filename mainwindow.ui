@@ -812,6 +812,8 @@
         <font>
          <family>Microsoft YaHei UI</family>
          <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="focusPolicy">
@@ -3324,7 +3326,7 @@
        <property name="font">
         <font>
          <family>Microsoft YaHei UI</family>
-         <pointsize>20</pointsize>
+         <pointsize>16</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -3334,7 +3336,7 @@
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>⏭</string>
+        <string>▶▶</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -3584,14 +3586,14 @@
        <property name="font">
         <font>
          <family>Microsoft YaHei UI</family>
-         <pointsize>20</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>⏮</string>
+        <string>◀◀</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -3600,6 +3602,12 @@
      </item>
      <item row="2" column="1">
       <widget class="QPushButton" name="mainButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
          <width>50</width>
@@ -3841,7 +3849,7 @@
        <property name="font">
         <font>
          <family>Microsoft YaHei UI</family>
-         <pointsize>26</pointsize>
+         <pointsize>32</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
@@ -3851,7 +3859,7 @@
         <string notr="true"/>
        </property>
        <property name="text">
-        <string>⏯</string>
+        <string>▶</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -4108,7 +4116,7 @@
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>🔉</string>
+        <string>♪♪</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -4117,10 +4125,10 @@
      </item>
     </layout>
    </widget>
-   <zorder>playControlGroupBox</zorder>
    <zorder>videoWidget</zorder>
    <zorder>procGroupBox</zorder>
    <zorder>systemGroupBox</zorder>
+   <zorder>playControlGroupBox</zorder>
   </widget>
   <action name="actionOpenFile">
    <property name="text">
