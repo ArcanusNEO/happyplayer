@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui_(new Ui::MainWindow), player_(new QMediaPlayer), playList_(new QMediaPlaylist), timer_(new QTimer(this)), inited_(false) {
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui_(new Ui::MainWindow), player_(new QMediaPlayer), playList_(new QMediaPlaylist), timer_(new QTimer(this)), inited_(false), mouseRegion_(0) {
     QMenu* fileMenu, * aboutMenu;
 
     ui_->setupUi(this);
@@ -169,6 +169,7 @@ void MainWindow::resizeEvent(QResizeEvent* event) {
 }
 
 void MainWindow::mousePressEvent(QMouseEvent* event) {
+    qDebug() << event->x() << event->y();
     if (windowState() != Qt::WindowNoState) {
         setCursor(Qt::ArrowCursor);
         return;
@@ -343,4 +344,8 @@ void MainWindow::hideMouse() {
     if (player_->state() != QMediaPlayer::StoppedState) {
         setCursor(Qt::BlankCursor);
     }
+}
+
+void MainWindow::mouseReleaseEvent(QMouseEvent* event) {
+    mouseRegion_ = 0;
 }
