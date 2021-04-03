@@ -169,7 +169,6 @@ void MainWindow::resizeEvent(QResizeEvent* event) {
 }
 
 void MainWindow::mousePressEvent(QMouseEvent* event) {
-    qDebug() << event->x() << event->y();
     if (windowState() != Qt::WindowNoState) {
         setCursor(Qt::ArrowCursor);
         return;
