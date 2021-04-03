@@ -563,6 +563,9 @@
        <property name="text">
         <string>✕</string>
        </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="0" column="5">
@@ -817,6 +820,9 @@
        <property name="text">
         <string>☐</string>
        </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="0" column="1">
@@ -1062,7 +1068,7 @@
        <property name="font">
         <font>
          <family>Microsoft YaHei UI</family>
-         <pointsize>10</pointsize>
+         <pointsize>8</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -1072,6 +1078,9 @@
        </property>
        <property name="text">
         <string>帮助</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -1318,7 +1327,7 @@
        <property name="font">
         <font>
          <family>Microsoft YaHei UI</family>
-         <pointsize>10</pointsize>
+         <pointsize>8</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -1331,6 +1340,9 @@
        </property>
        <property name="text">
         <string>文件</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -1599,6 +1611,9 @@
        <property name="text">
         <string>─</string>
        </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="0" column="6">
@@ -1852,6 +1867,9 @@
        </property>
        <property name="text">
         <string>⧈</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -2331,7 +2349,9 @@
           <property name="font">
            <font>
             <family>Microsoft YaHei UI</family>
-            <pointsize>10</pointsize>
+            <pointsize>7</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -2486,7 +2506,9 @@
           <property name="font">
            <font>
             <family>Microsoft YaHei UI</family>
-            <pointsize>10</pointsize>
+            <pointsize>7</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -3301,6 +3323,9 @@
        <property name="text">
         <string>⏭</string>
        </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="2" column="0">
@@ -3554,6 +3579,9 @@
        </property>
        <property name="text">
         <string>⏮</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -3812,6 +3840,9 @@
        <property name="text">
         <string>⏯</string>
        </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item row="2" column="4">
@@ -4065,6 +4096,9 @@
        </property>
        <property name="text">
         <string>🔉</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
