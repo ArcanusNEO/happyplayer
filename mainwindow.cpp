@@ -95,9 +95,9 @@ void MainWindow::onMainButtonClicked() {
 
 void MainWindow::onPlayerStateChanged(QMediaPlayer::State state) {
     if (state == QMediaPlayer::PlayingState) {
-        ui_->mainButton->setText("暂停");
+        ui_->mainButton->setText("⏸");
     } else {
-        ui_->mainButton->setText("播放");
+        ui_->mainButton->setText("⏯");
     }
 }
 

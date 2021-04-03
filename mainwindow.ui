@@ -550,7 +550,8 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
@@ -806,7 +807,8 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>13</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
@@ -1059,8 +1061,10 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
-         <pointsize>8</pointsize>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="focusPolicy">
@@ -1313,8 +1317,10 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
-         <pointsize>8</pointsize>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="focusPolicy">
@@ -1583,7 +1589,8 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
@@ -1836,15 +1843,15 @@
        </property>
        <property name="font">
         <font>
-         <family>PingFang SC</family>
-         <pointsize>16</pointsize>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>18</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>✠</string>
+        <string>⧈</string>
        </property>
       </widget>
      </item>
@@ -2323,8 +2330,8 @@
           </property>
           <property name="font">
            <font>
-            <family>.PingFang SC0</family>
-            <pointsize>8</pointsize>
+            <family>Microsoft YaHei UI</family>
+            <pointsize>10</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -2478,8 +2485,8 @@
           </property>
           <property name="font">
            <font>
-            <family>.PingFang SC0</family>
-            <pointsize>8</pointsize>
+            <family>Microsoft YaHei UI</family>
+            <pointsize>10</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -3043,13 +3050,13 @@
       <widget class="QPushButton" name="nextButton">
        <property name="minimumSize">
         <size>
-         <width>60</width>
+         <width>30</width>
          <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>60</width>
+         <width>30</width>
          <height>30</height>
         </size>
        </property>
@@ -3281,14 +3288,18 @@
        </property>
        <property name="font">
         <font>
-         <family>.PingFang SC0</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
         </font>
        </property>
        <property name="focusPolicy">
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>下一项</string>
+        <string>⏭</string>
        </property>
       </widget>
      </item>
@@ -3296,13 +3307,13 @@
       <widget class="QPushButton" name="prevButton">
        <property name="minimumSize">
         <size>
-         <width>60</width>
+         <width>30</width>
          <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>60</width>
+         <width>30</width>
          <height>30</height>
         </size>
        </property>
@@ -3534,14 +3545,15 @@
        </property>
        <property name="font">
         <font>
-         <family>.PingFang SC0</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>20</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
         <enum>Qt::NoFocus</enum>
        </property>
        <property name="text">
-        <string>上一项</string>
+        <string>⏮</string>
        </property>
       </widget>
      </item>
@@ -3549,13 +3561,13 @@
       <widget class="QPushButton" name="mainButton">
        <property name="minimumSize">
         <size>
-         <width>60</width>
+         <width>50</width>
          <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>60</width>
+         <width>50</width>
          <height>30</height>
         </size>
        </property>
@@ -3787,7 +3799,8 @@
        </property>
        <property name="font">
         <font>
-         <family>.PingFang SC0</family>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>26</pointsize>
         </font>
        </property>
        <property name="focusPolicy">
@@ -3797,7 +3810,7 @@
         <string notr="true"/>
        </property>
        <property name="text">
-        <string>播放</string>
+        <string>⏯</string>
        </property>
       </widget>
      </item>
@@ -4043,7 +4056,7 @@
        </property>
        <property name="font">
         <font>
-         <family>.PingFang SC0</family>
+         <family>Microsoft YaHei UI</family>
          <pointsize>12</pointsize>
         </font>
        </property>

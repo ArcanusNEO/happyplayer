@@ -40,8 +40,6 @@ protected:
     void dropEvent(QDropEvent* event);
     void mousePressEvent(QMouseEvent* event);
     void mouseMoveEvent(QMouseEvent* event);
-    //void mouseReleaseEvent(QMouseEvent* event);
-    //void changeEvent(QEvent* event);
     void resizeEvent(QResizeEvent* event);
     void keyPressEvent(QKeyEvent* event);
     void mouseDoubleClickEvent(QMouseEvent* event);
