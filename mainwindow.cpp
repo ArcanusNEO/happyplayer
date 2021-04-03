@@ -95,7 +95,7 @@ void MainWindow::onMainButtonClicked() {
 
 void MainWindow::onPlayerStateChanged(QMediaPlayer::State state) {
     if (state == QMediaPlayer::PlayingState) {
-        ui_->mainButton->setText("||");
+        ui_->mainButton->setText("| |");
     } else {
         ui_->mainButton->setText("▶");
     }
