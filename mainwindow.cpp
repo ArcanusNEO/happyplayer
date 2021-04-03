@@ -6,7 +6,6 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui_(new Ui::MainW
 
     ui_->setupUi(this);
     setWindowFlags(Qt::FramelessWindowHint);
-    //setAttribute(Qt::WA_TranslucentBackground, true);
     player_->setVolume(ui_->volSlider->value());
     playList_->setPlaybackMode(QMediaPlaylist::CurrentItemOnce);
     player_->setPlaylist(playList_);
@@ -130,14 +129,6 @@ void MainWindow::onMaxBtnClicked() {
         resize(800, 600);
     }
 }
-
-/*void MainWindow::changeEvent(QEvent* event) {
-    if (event->type() == QEvent::WindowStateChange) {
-        if (windowState() == Qt::WindowFullScreen) {
-
-        }
-    }
-}*/
 
 void MainWindow::setMute() {
     ui_->volSlider->setValue(0);
@@ -344,7 +335,6 @@ void MainWindow::paintEvent(QPaintEvent* event) {
     painter.setBrush(QBrush(Qt::lightGray));
     painter.drawRect(rect());
     painter.setBrush(QBrush(Qt::black));
-    //painter.drawRoundedRect(1, 1, width() - 2, height() - 2, 7, 7);
     painter.drawRect(2, 2, width() - 4, height() - 4);
 }
 
